@@ -62,6 +62,5 @@ function love.draw()
     love.graphics.rectangle('fill', 30, player1_y, 5, 20)
     love.graphics.rectangle('fill', virtual_width -30, player2_y, 5, 20)
     love.graphics.rectangle('fill', virtual_width/2, virtual_height/2, 5, 5)
-    
     push:finish()
 end
